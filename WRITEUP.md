@@ -99,7 +99,7 @@ For a selection chain `q₁.q₂…q_p.m` with `c` candidates per hop:
 
 ## Measurements
 
-Setup: retronym/intellij-scala `fdd8ed14ad` plus experiment-only counters and memo flags (an unpublished branch; counters off unless `ASF_STATS=true`). The harness is `TypersHighlightingTimingTest` with the real JDK 17 and scala-asm on the classpath, scala/scala b4ad4458da sources as a source root, caches dropped before every highlight. Batch sbt, one or two at a time. The machine was shared with other sessions (load average 16–21), so wall-clock numbers are noisy. Counters are exact and deterministic run to run. Raw outputs are in `data/`.
+Setup: retronym/intellij-scala `fdd8ed14ad` plus experiment-only counters and memo flags ([retronym/intellij-scala#15](https://github.com/retronym/intellij-scala/pull/15); counters off unless `ASF_STATS=true`). The harness is `TypersHighlightingTimingTest` with the real JDK 17 and scala-asm on the classpath, scala/scala b4ad4458da sources as a source root, caches dropped before every highlight. Batch sbt, one or two at a time. The machine was shared with other sessions (load average 16–21), so wall-clock numbers are noisy. Counters are exact and deterministic run to run. Raw outputs are in `data/`.
 
 ### Counters on Typers.scala (one highlight, warm JIT)
 
