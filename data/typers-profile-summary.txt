@@ -1,0 +1,28 @@
+all samples 67566, plugin samples 55843 (83%)
+ 10.0%  UNION apply|canonicalize|baseType|walk
+ 21.4%  conformance
+ 15.1%  TypeDefinitionMembers
+ 14.9%  BaseProcessor.processType
+ 10.7%  MixinNodes
+  9.7%  subst.apply (ScSubstitutor.apply)
+  7.9%  this-walk (doUpdateThisTypeFromClass)
+  5.9%  BaseTypes (any)
+  5.9%  BaseTypes.baseType
+  3.7%  designatorSingletonType
+  3.5%  ScalaColorSchemeAnnotator
+  2.6%  ScProjectionType.actualImpl
+  2.4%  isInheritor(Deep)
+  1.7%  canonicalizeTarget
+  1.6%  collapseSingletonPath
+  1.0%  isMoreNarrow
+  0.9%  ownerChainMatches
+--- inside the this-walk (% of walk samples)
+ 75.5%  BaseTypes$.baseType
+ 59.4%  supersOf
+ 22.4%  ScSubstitutor.apply
+ 17.0%  isInheritor
+ 13.2%  designatorSingletonType
+ 13.1%  isMoreNarrow
+ 11.4%  ownerChainMatches
+  4.3%  extractAll
+  0.2%  mergeSameClass

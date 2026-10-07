@@ -1,0 +1,1048 @@
+STATS rep=0 file=D1.scala ms=1267
+  apply.calls                                      2960
+  apply.fused                                      1628
+  apply.k.n                                        2960
+  apply.k.sum                                      3543
+  apply.k[1]                                       2549
+  apply.k[2]                                       373
+  apply.k[3]                                       9
+  apply.k[4]                                       8
+  apply.k[9]                                       21
+  apply.nested                                     547
+  apply.thisLinks.n                                2960
+  apply.thisLinks.sum                              1721
+  apply.thisLinks[0]                               1723
+  apply.thisLinks[1]                               858
+  apply.thisLinks[2]                               358
+  apply.thisLinks[7]                               21
+  apply.topNanos                                   63.2 ms
+  apply.unfused                                    1332
+  baseType.calls                                   63
+  baseType.topNanos                                16.7 ms
+  baseType.visited.n                               63
+  baseType.visited.sum                             252
+  baseType.visited[2]                              21
+  baseType.visited[5]                              42
+  baseTypes.supersOf                               252
+  canonicalize.calls                               942
+  canonicalize.nested                              48
+  canonicalize.topNanos                            35.5 ms
+  followed.len.n                                   452
+  followed.len.sum                                 1756
+  followed.len[2]                                  232
+  followed.len[3]                                  68
+  followed.len[4]                                  8
+  followed.len[5]                                  48
+  followed.len[8]                                  48
+  followed.len[9]                                  48
+  isMoreNarrow.steps                               499
+  link.canonicalize.calls                          716
+  link.canonicalize.topNanos                       32.0 ms
+  link.created                                     716
+  resolve.candidateSignatures                      588
+  resolve.processType                              274
+  resolve.substitutorWithThisType                  514
+  thisWalk.calls                                   292
+  thisWalk.nested                                  21
+  thisWalk.ownerSteps                              334
+  thisWalk.prefixSteps                             292
+  thisWalk.rewrote                                 268
+  thisWalk.topNanos                                26.6 ms
+  walk.processSubtypes                             4977
+  walk.updateChecks                                10135
+ERRORS gate=on file=D1.scala count=1 loggedPlatformErrors=0 guardTrips=0
+  ERR D1.scala:34 Expression of type (Top.v1.C1, Int) doesn't conform to expected type Int
+STATS rep=1 file=D1.scala ms=116
+  apply.calls                                      2096
+  apply.fused                                      1358
+  apply.k.n                                        2096
+  apply.k.sum                                      2599
+  apply.k[1]                                       1757
+  apply.k[2]                                       304
+  apply.k[3]                                       6
+  apply.k[4]                                       9
+  apply.k[9]                                       20
+  apply.nested                                     541
+  apply.thisLinks.n                                2096
+  apply.thisLinks.sum                              1454
+  apply.thisLinks[0]                               1056
+  apply.thisLinks[1]                               726
+  apply.thisLinks[2]                               294
+  apply.thisLinks[7]                               20
+  apply.topNanos                                   18.2 ms
+  apply.unfused                                    738
+  baseType.calls                                   60
+  baseType.topNanos                                8.6 ms
+  baseType.visited.n                               60
+  baseType.visited.sum                             240
+  baseType.visited[2]                              20
+  baseType.visited[5]                              40
+  baseTypes.supersOf                               240
+  canonicalize.calls                               671
+  canonicalize.nested                              52
+  canonicalize.topNanos                            7.5 ms
+  followed.len.n                                   389
+  followed.len.sum                                 1701
+  followed.len[2]                                  151
+  followed.len[3]                                  73
+  followed.len[4]                                  9
+  followed.len[5]                                  52
+  followed.len[8]                                  52
+  followed.len[9]                                  52
+  isMoreNarrow.steps                               508
+  link.canonicalize.calls                          443
+  link.canonicalize.topNanos                       5.2 ms
+  link.created                                     443
+  resolve.candidateSignatures                      367
+  resolve.processType                              251
+  resolve.substitutorWithThisType                  349
+  thisWalk.calls                                   291
+  thisWalk.nested                                  20
+  thisWalk.ownerSteps                              331
+  thisWalk.prefixSteps                             291
+  thisWalk.rewrote                                 268
+  thisWalk.topNanos                                11.3 ms
+  walk.processSubtypes                             3288
+  walk.updateChecks                                7133
+VARIANT-SUMMARY env reps=116 min=116 median=116
+TIMING gate=on file=D1.scala first=1267ms reps=116ms min=116ms
+STATS rep=0 file=D2.scala ms=138
+  apply.calls                                      4630
+  apply.fused                                      3893
+  apply.k.n                                        4630
+  apply.k.sum                                      6824
+  apply.k[15]                                      21
+  apply.k[1]                                       3476
+  apply.k[2]                                       871
+  apply.k[3]                                       6
+  apply.k[4]                                       7
+  apply.k[5]                                       249
+  apply.nested                                     2327
+  apply.thisLinks.n                                4630
+  apply.thisLinks.sum                              5379
+  apply.thisLinks[0]                               1360
+  apply.thisLinks[13]                              21
+  apply.thisLinks[1]                               2139
+  apply.thisLinks[2]                               861
+  apply.thisLinks[5]                               249
+  apply.topNanos                                   38.4 ms
+  apply.unfused                                    737
+  baseType.calls                                   189
+  baseType.topNanos                                16.3 ms
+  baseType.visited.n                               189
+  baseType.visited.sum                             630
+  baseType.visited[2]                              105
+  baseType.visited[5]                              84
+  baseTypes.supersOf                               630
+  canonicalize.calls                               1601
+  canonicalize.nested                              495
+  canonicalize.topNanos                            21.6 ms
+  followed.len.n                                   507
+  followed.len.sum                                 3557
+  followed.len[11]                                 60
+  followed.len[14]                                 60
+  followed.len[15]                                 60
+  followed.len[2]                                  149
+  followed.len[3]                                  19
+  followed.len[4]                                  53
+  followed.len[5]                                  46
+  followed.len[6]                                  60
+  isMoreNarrow.steps                               2187
+  link.canonicalize.calls                          598
+  link.canonicalize.topNanos                       10.7 ms
+  link.created                                     598
+  resolve.candidateSignatures                      442
+  resolve.processType                              380
+  resolve.substitutorWithThisType                  396
+  thisWalk.calls                                   1132
+  thisWalk.nested                                  147
+  thisWalk.ownerSteps                              1258
+  thisWalk.prefixSteps                             1174
+  thisWalk.rewrote                                 1108
+  thisWalk.topNanos                                21.3 ms
+  walk.processSubtypes                             6013
+  walk.updateChecks                                16113
+ERRORS gate=on file=D2.scala count=1 loggedPlatformErrors=0 guardTrips=0
+  ERR D2.scala:38 Expression of type (Top.v1.C1, Top.v1.v2.C2, Int) doesn't conform to expected type Int
+STATS rep=1 file=D2.scala ms=130
+  apply.calls                                      4527
+  apply.fused                                      3757
+  apply.k.n                                        4527
+  apply.k.sum                                      6627
+  apply.k[15]                                      20
+  apply.k[1]                                       3417
+  apply.k[2]                                       840
+  apply.k[3]                                       6
+  apply.k[4]                                       8
+  apply.k[5]                                       236
+  apply.nested                                     2212
+  apply.thisLinks.n                                4527
+  apply.thisLinks.sum                              5168
+  apply.thisLinks[0]                               1373
+  apply.thisLinks[13]                              20
+  apply.thisLinks[1]                               2068
+  apply.thisLinks[2]                               830
+  apply.thisLinks[5]                               236
+  apply.topNanos                                   44.9 ms
+  apply.unfused                                    770
+  baseType.calls                                   180
+  baseType.topNanos                                23.1 ms
+  baseType.visited.n                               180
+  baseType.visited.sum                             600
+  baseType.visited[2]                              100
+  baseType.visited[5]                              80
+  baseTypes.supersOf                               600
+  canonicalize.calls                               1549
+  canonicalize.nested                              471
+  canonicalize.topNanos                            29.6 ms
+  followed.len.n                                   499
+  followed.len.sum                                 3425
+  followed.len[11]                                 57
+  followed.len[14]                                 57
+  followed.len[15]                                 57
+  followed.len[2]                                  153
+  followed.len[3]                                  20
+  followed.len[4]                                  53
+  followed.len[5]                                  45
+  followed.len[6]                                  57
+  isMoreNarrow.steps                               2086
+  link.canonicalize.calls                          592
+  link.canonicalize.topNanos                       9.9 ms
+  link.created                                     592
+  resolve.candidateSignatures                      442
+  resolve.processType                              373
+  resolve.substitutorWithThisType                  394
+  thisWalk.calls                                   1080
+  thisWalk.nested                                  140
+  thisWalk.ownerSteps                              1200
+  thisWalk.prefixSteps                             1120
+  thisWalk.rewrote                                 1057
+  thisWalk.topNanos                                27.3 ms
+  walk.processSubtypes                             5915
+  walk.updateChecks                                15666
+VARIANT-SUMMARY env reps=130 min=130 median=130
+TIMING gate=on file=D2.scala first=138ms reps=130ms min=130ms
+STATS rep=0 file=D3.scala ms=148
+  apply.calls                                      11589
+  apply.fused                                      10790
+  apply.k.n                                        11589
+  apply.k.sum                                      20958
+  apply.k[11]                                      282
+  apply.k[1]                                       7955
+  apply.k[2]                                       2427
+  apply.k[3]                                       6
+  apply.k[4]                                       6
+  apply.k[5]                                       893
+  apply.k[<=32]                                    20
+  apply.nested                                     8030
+  apply.thisLinks.n                                11589
+  apply.thisLinks.sum                              19177
+  apply.thisLinks[0]                               1701
+  apply.thisLinks[11]                              282
+  apply.thisLinks[1]                               6276
+  apply.thisLinks[2]                               2417
+  apply.thisLinks[5]                               893
+  apply.thisLinks[<=32]                            20
+  apply.topNanos                                   87.6 ms
+  apply.unfused                                    799
+  baseType.calls                                   340
+  baseType.topNanos                                25.3 ms
+  baseType.visited.n                               340
+  baseType.visited.sum                             1040
+  baseType.visited[2]                              220
+  baseType.visited[5]                              120
+  baseTypes.supersOf                               1040
+  canonicalize.calls                               4298
+  canonicalize.nested                              2393
+  canonicalize.topNanos                            71.3 ms
+  followed.len.n                                   670
+  followed.len.sum                                 7696
+  followed.len[10]                                 64
+  followed.len[11]                                 64
+  followed.len[12]                                 62
+  followed.len[2]                                  157
+  followed.len[3]                                  21
+  followed.len[4]                                  61
+  followed.len[5]                                  55
+  followed.len[<=32]                               186
+  isMoreNarrow.steps                               7324
+  link.canonicalize.calls                          809
+  link.canonicalize.topNanos                       29.2 ms
+  link.created                                     809
+  resolve.candidateSignatures                      548
+  resolve.processType                              552
+  resolve.substitutorWithThisType                  461
+  thisWalk.calls                                   3672
+  thisWalk.nested                                  600
+  thisWalk.ownerSteps                              3912
+  thisWalk.prefixSteps                             3792
+  thisWalk.rewrote                                 3649
+  thisWalk.topNanos                                36.1 ms
+  walk.processSubtypes                             12976
+  walk.updateChecks                                40371
+ERRORS gate=on file=D3.scala count=1 loggedPlatformErrors=0 guardTrips=0
+  ERR D3.scala:42 Expression of type (Top.v1.C1, Top.v1.v2.C2, Top.v1.v2.v3.C3, Int) doesn't conform to expected type Int
+STATS rep=1 file=D3.scala ms=137
+  apply.calls                                      11837
+  apply.fused                                      11050
+  apply.k.n                                        11837
+  apply.k.sum                                      21538
+  apply.k[11]                                      297
+  apply.k[1]                                       8103
+  apply.k[2]                                       2479
+  apply.k[3]                                       6
+  apply.k[4]                                       8
+  apply.k[5]                                       924
+  apply.k[<=32]                                    20
+  apply.nested                                     8305
+  apply.thisLinks.n                                11837
+  apply.thisLinks.sum                              19770
+  apply.thisLinks[0]                               1682
+  apply.thisLinks[11]                              297
+  apply.thisLinks[1]                               6445
+  apply.thisLinks[2]                               2469
+  apply.thisLinks[5]                               924
+  apply.thisLinks[<=32]                            20
+  apply.topNanos                                   81.2 ms
+  apply.unfused                                    787
+  baseType.calls                                   340
+  baseType.topNanos                                23.2 ms
+  baseType.visited.n                               340
+  baseType.visited.sum                             1040
+  baseType.visited[2]                              220
+  baseType.visited[5]                              120
+  baseTypes.supersOf                               1040
+  canonicalize.calls                               4451
+  canonicalize.nested                              2496
+  canonicalize.topNanos                            67.6 ms
+  followed.len.n                                   701
+  followed.len.sum                                 8099
+  followed.len[10]                                 64
+  followed.len[11]                                 64
+  followed.len[12]                                 66
+  followed.len[2]                                  162
+  followed.len[3]                                  23
+  followed.len[4]                                  66
+  followed.len[5]                                  58
+  followed.len[<=32]                               198
+  isMoreNarrow.steps                               7601
+  link.canonicalize.calls                          823
+  link.canonicalize.topNanos                       29.2 ms
+  link.created                                     823
+  resolve.candidateSignatures                      560
+  resolve.processType                              573
+  resolve.substitutorWithThisType                  465
+  thisWalk.calls                                   3811
+  thisWalk.nested                                  600
+  thisWalk.ownerSteps                              4051
+  thisWalk.prefixSteps                             3931
+  thisWalk.rewrote                                 3788
+  thisWalk.topNanos                                34.3 ms
+  walk.processSubtypes                             13068
+  walk.updateChecks                                40774
+VARIANT-SUMMARY env reps=137 min=137 median=137
+TIMING gate=on file=D3.scala first=148ms reps=137ms min=137ms
+STATS rep=0 file=D4.scala ms=244
+  apply.calls                                      31830
+  apply.fused                                      31105
+  apply.k.n                                        31830
+  apply.k.sum                                      68251
+  apply.k[11]                                      1052
+  apply.k[1]                                       20616
+  apply.k[2]                                       7159
+  apply.k[3]                                       9
+  apply.k[4]                                       6
+  apply.k[5]                                       2647
+  apply.k[<=32]                                    319
+  apply.k[<=64]                                    22
+  apply.nested                                     26551
+  apply.thisLinks.n                                31830
+  apply.thisLinks.sum                              66156
+  apply.thisLinks[0]                               2000
+  apply.thisLinks[11]                              1052
+  apply.thisLinks[1]                               18646
+  apply.thisLinks[2]                               7144
+  apply.thisLinks[5]                               2647
+  apply.thisLinks[<=32]                            319
+  apply.thisLinks[<=64]                            22
+  apply.topNanos                                   305.0 ms
+  apply.unfused                                    725
+  baseType.calls                                   606
+  baseType.topNanos                                83.2 ms
+  baseType.visited.n                               606
+  baseType.visited.sum                             1740
+  baseType.visited[2]                              430
+  baseType.visited[5]                              176
+  baseTypes.supersOf                               1740
+  canonicalize.calls                               12228
+  canonicalize.nested                              9030
+  canonicalize.topNanos                            279.1 ms
+  followed.len.n                                   871
+  followed.len.sum                                 16465
+  followed.len[10]                                 70
+  followed.len[11]                                 70
+  followed.len[2]                                  191
+  followed.len[3]                                  24
+  followed.len[4]                                  65
+  followed.len[5]                                  59
+  followed.len[<=32]                               203
+  followed.len[<=64]                               189
+  isMoreNarrow.steps                               22750
+  link.canonicalize.calls                          1169
+  link.canonicalize.topNanos                       95.7 ms
+  link.created                                     1169
+  resolve.candidateSignatures                      730
+  resolve.processType                              754
+  resolve.substitutorWithThisType                  582
+  thisWalk.calls                                   11332
+  thisWalk.nested                                  2376
+  thisWalk.ownerSteps                              11778
+  thisWalk.prefixSteps                             11596
+  thisWalk.rewrote                                 11301
+  thisWalk.topNanos                                127.4 ms
+  walk.processSubtypes                             33620
+  walk.updateChecks                                116452
+ERRORS gate=on file=D4.scala count=1 loggedPlatformErrors=0 guardTrips=0
+  ERR D4.scala:46 Expression of type (Top.v1.C1, Top.v1.v2.C2, Top.v1.v2.v3.C3, Top.v1.v2.v3.v4.C4, Int) doesn't conform to expected type Int
+STATS rep=1 file=D4.scala ms=200
+  apply.calls                                      31400
+  apply.fused                                      30652
+  apply.k.n                                        31400
+  apply.k.sum                                      67298
+  apply.k[11]                                      1034
+  apply.k[1]                                       20361
+  apply.k[2]                                       7046
+  apply.k[3]                                       8
+  apply.k[4]                                       8
+  apply.k[5]                                       2605
+  apply.k[<=32]                                    316
+  apply.k[<=64]                                    22
+  apply.nested                                     26175
+  apply.thisLinks.n                                31400
+  apply.thisLinks.sum                              65186
+  apply.thisLinks[0]                               2020
+  apply.thisLinks[11]                              1034
+  apply.thisLinks[1]                               18365
+  apply.thisLinks[2]                               7038
+  apply.thisLinks[5]                               2605
+  apply.thisLinks[<=32]                            316
+  apply.thisLinks[<=64]                            22
+  apply.topNanos                                   289.8 ms
+  apply.unfused                                    748
+  baseType.calls                                   608
+  baseType.topNanos                                77.8 ms
+  baseType.visited.n                               608
+  baseType.visited.sum                             1744
+  baseType.visited[2]                              432
+  baseType.visited[5]                              176
+  baseTypes.supersOf                               1744
+  canonicalize.calls                               12039
+  canonicalize.nested                              8888
+  canonicalize.topNanos                            262.0 ms
+  followed.len.n                                   859
+  followed.len.sum                                 16160
+  followed.len[10]                                 70
+  followed.len[11]                                 70
+  followed.len[2]                                  185
+  followed.len[3]                                  26
+  followed.len[4]                                  67
+  followed.len[5]                                  59
+  followed.len[<=32]                               196
+  followed.len[<=64]                               186
+  isMoreNarrow.steps                               22405
+  link.canonicalize.calls                          1157
+  link.canonicalize.topNanos                       90.4 ms
+  link.created                                     1157
+  resolve.candidateSignatures                      730
+  resolve.processType                              752
+  resolve.substitutorWithThisType                  582
+  thisWalk.calls                                   11156
+  thisWalk.nested                                  2376
+  thisWalk.ownerSteps                              11603
+  thisWalk.prefixSteps                             11420
+  thisWalk.rewrote                                 11124
+  thisWalk.topNanos                                118.1 ms
+  walk.processSubtypes                             32891
+  walk.updateChecks                                114517
+VARIANT-SUMMARY env reps=200 min=200 median=200
+TIMING gate=on file=D4.scala first=244ms reps=200ms min=200ms
+STATS rep=0 file=D5.scala ms=350
+  apply.calls                                      89257
+  apply.fused                                      88593
+  apply.k.n                                        89257
+  apply.k.sum                                      215631
+  apply.k[11]                                      2933
+  apply.k[1]                                       56324
+  apply.k[2]                                       20618
+  apply.k[3]                                       13
+  apply.k[4]                                       8
+  apply.k[5]                                       7777
+  apply.k[<=128]                                   25
+  apply.k[<=32]                                    1204
+  apply.k[<=64]                                    355
+  apply.nested                                     81869
+  apply.thisLinks.n                                89257
+  apply.thisLinks.sum                              213076
+  apply.thisLinks[0]                               2456
+  apply.thisLinks[11]                              2933
+  apply.thisLinks[1]                               53894
+  apply.thisLinks[2]                               20607
+  apply.thisLinks[3]                               6
+  apply.thisLinks[5]                               7777
+  apply.thisLinks[<=128]                           25
+  apply.thisLinks[<=32]                            1204
+  apply.thisLinks[<=64]                            355
+  apply.topNanos                                   655.4 ms
+  apply.unfused                                    664
+  baseType.calls                                   1021
+  baseType.topNanos                                191.5 ms
+  baseType.visited.n                               1021
+  baseType.visited.sum                             2792
+  baseType.visited[2]                              771
+  baseType.visited[5]                              250
+  baseTypes.supersOf                               2792
+  canonicalize.calls                               34355
+  canonicalize.nested                              29542
+  canonicalize.topNanos                            630.0 ms
+  followed.len.n                                   1034
+  followed.len.sum                                 33560
+  followed.len[10]                                 70
+  followed.len[11]                                 70
+  followed.len[2]                                  194
+  followed.len[3]                                  30
+  followed.len[4]                                  74
+  followed.len[5]                                  60
+  followed.len[<=128]                              186
+  followed.len[<=32]                               144
+  followed.len[<=64]                               206
+  isMoreNarrow.steps                               66652
+  link.canonicalize.calls                          1581
+  link.canonicalize.topNanos                       191.7 ms
+  link.created                                     1581
+  resolve.candidateSignatures                      852
+  resolve.processType                              944
+  resolve.substitutorWithThisType                  651
+  thisWalk.calls                                   33175
+  thisWalk.nested                                  8975
+  thisWalk.ownerSteps                              33954
+  thisWalk.prefixSteps                             33675
+  thisWalk.rewrote                                 33124
+  thisWalk.topNanos                                257.5 ms
+  walk.processSubtypes                             90759
+  walk.updateChecks                                339673
+ERRORS gate=on file=D5.scala count=1 loggedPlatformErrors=0 guardTrips=0
+  ERR D5.scala:50 Expression of type (Top.v1.C1, Top.v1.v2.C2, Top.v1.v2.v3.C3, Top.v1.v2.v3.v4.C4, Top.v1.v2.v3.v4.v5.C5, Int) doesn't conform to expected type Int
+STATS rep=1 file=D5.scala ms=293
+  apply.calls                                      86855
+  apply.fused                                      86563
+  apply.k.n                                        86855
+  apply.k.sum                                      210387
+  apply.k[11]                                      2876
+  apply.k[1]                                       54664
+  apply.k[2]                                       20136
+  apply.k[3]                                       12
+  apply.k[4]                                       6
+  apply.k[5]                                       7618
+  apply.k[<=128]                                   24
+  apply.k[<=32]                                    1171
+  apply.k[<=64]                                    348
+  apply.nested                                     80074
+  apply.thisLinks.n                                86855
+  apply.thisLinks.sum                              208293
+  apply.thisLinks[0]                               2006
+  apply.thisLinks[11]                              2876
+  apply.thisLinks[1]                               52680
+  apply.thisLinks[2]                               20126
+  apply.thisLinks[3]                               6
+  apply.thisLinks[5]                               7618
+  apply.thisLinks[<=128]                           24
+  apply.thisLinks[<=32]                            1171
+  apply.thisLinks[<=64]                            348
+  apply.topNanos                                   573.0 ms
+  apply.unfused                                    292
+  baseType.calls                                   982
+  baseType.topNanos                                164.5 ms
+  baseType.visited.n                               982
+  baseType.visited.sum                             2684
+  baseType.visited[2]                              742
+  baseType.visited[5]                              240
+  baseTypes.supersOf                               2684
+  canonicalize.calls                               33557
+  canonicalize.nested                              28956
+  canonicalize.topNanos                            550.7 ms
+  followed.len.n                                   980
+  followed.len.sum                                 33278
+  followed.len[10]                                 68
+  followed.len[11]                                 68
+  followed.len[2]                                  162
+  followed.len[3]                                  30
+  followed.len[4]                                  64
+  followed.len[5]                                  52
+  followed.len[<=128]                              186
+  followed.len[<=32]                               148
+  followed.len[<=64]                               202
+  isMoreNarrow.steps                               65237
+  link.canonicalize.calls                          1470
+  link.canonicalize.topNanos                       165.1 ms
+  link.created                                     1470
+  resolve.candidateSignatures                      757
+  resolve.processType                              895
+  resolve.substitutorWithThisType                  576
+  thisWalk.calls                                   32473
+  thisWalk.nested                                  8616
+  thisWalk.ownerSteps                              33222
+  thisWalk.prefixSteps                             32953
+  thisWalk.rewrote                                 32423
+  thisWalk.topNanos                                232.6 ms
+  walk.processSubtypes                             88139
+  walk.updateChecks                                330746
+VARIANT-SUMMARY env reps=293 min=293 median=293
+TIMING gate=on file=D5.scala first=350ms reps=293ms min=293ms
+STATS rep=0 file=D6.scala ms=535
+  apply.calls                                      243646
+  apply.fused                                      243375
+  apply.k.n                                        243646
+  apply.k.sum                                      639884
+  apply.k[11]                                      8247
+  apply.k[1]                                       151777
+  apply.k[2]                                       57063
+  apply.k[3]                                       24
+  apply.k[4]                                       13
+  apply.k[5]                                       21689
+  apply.k[<=128]                                   384
+  apply.k[<=256]                                   26
+  apply.k[<=32]                                    3114
+  apply.k[<=64]                                    1309
+  apply.nested                                     234235
+  apply.thisLinks.n                                243646
+  apply.thisLinks.sum                              637295
+  apply.thisLinks[0]                               2497
+  apply.thisLinks[11]                              8247
+  apply.thisLinks[1]                               149302
+  apply.thisLinks[2]                               57053
+  apply.thisLinks[3]                               18
+  apply.thisLinks[4]                               7
+  apply.thisLinks[5]                               21689
+  apply.thisLinks[<=128]                           384
+  apply.thisLinks[<=256]                           26
+  apply.thisLinks[<=32]                            3114
+  apply.thisLinks[<=64]                            1309
+  apply.topNanos                                   1278.1 ms
+  apply.unfused                                    271
+  baseType.calls                                   1501
+  baseType.topNanos                                412.9 ms
+  baseType.visited.n                               1501
+  baseType.visited.sum                             3938
+  baseType.visited[2]                              1189
+  baseType.visited[5]                              312
+  baseTypes.supersOf                               3938
+  canonicalize.calls                               93699
+  canonicalize.nested                              87216
+  canonicalize.topNanos                            1236.9 ms
+  followed.len.n                                   1143
+  followed.len.sum                                 67012
+  followed.len[10]                                 61
+  followed.len[11]                                 61
+  followed.len[2]                                  188
+  followed.len[3]                                  34
+  followed.len[4]                                  73
+  followed.len[5]                                  60
+  followed.len[<=128]                              200
+  followed.len[<=256]                              186
+  followed.len[<=32]                               138
+  followed.len[<=64]                               142
+  isMoreNarrow.steps                               185049
+  link.canonicalize.calls                          1992
+  link.canonicalize.topNanos                       316.1 ms
+  link.created                                     1992
+  resolve.candidateSignatures                      931
+  resolve.processType                              1061
+  resolve.substitutorWithThisType                  681
+  thisWalk.calls                                   92236
+  thisWalk.nested                                  29614
+  thisWalk.ownerSteps                              93418
+  thisWalk.prefixSteps                             93016
+  thisWalk.rewrote                                 92149
+  thisWalk.topNanos                                550.3 ms
+  walk.processSubtypes                             245244
+  walk.updateChecks                                959373
+ERRORS gate=on file=D6.scala count=1 loggedPlatformErrors=0 guardTrips=0
+  ERR D6.scala:54 Expression of type (Top.v1.C1, Top.v1.v2.C2, Top.v1.v2.v3.C3, Top.v1.v2.v3.v4.C4, Top.v1.v2.v3.v4.v5.C5, Top.v1.v2.v3.v4.v5.v6.C6, Int) doesn't conform to expected type Int
+STATS rep=1 file=D6.scala ms=375
+  apply.calls                                      243431
+  apply.fused                                      243160
+  apply.k.n                                        243431
+  apply.k.sum                                      639698
+  apply.k[11]                                      8240
+  apply.k[1]                                       151644
+  apply.k[2]                                       56993
+  apply.k[3]                                       25
+  apply.k[4]                                       14
+  apply.k[5]                                       21678
+  apply.k[<=128]                                   384
+  apply.k[<=256]                                   26
+  apply.k[<=32]                                    3113
+  apply.k[<=64]                                    1314
+  apply.nested                                     234170
+  apply.thisLinks.n                                243431
+  apply.thisLinks.sum                              637105
+  apply.thisLinks[0]                               2498
+  apply.thisLinks[11]                              8240
+  apply.thisLinks[1]                               149169
+  apply.thisLinks[2]                               56983
+  apply.thisLinks[3]                               19
+  apply.thisLinks[4]                               7
+  apply.thisLinks[5]                               21678
+  apply.thisLinks[<=128]                           384
+  apply.thisLinks[<=256]                           26
+  apply.thisLinks[<=32]                            3113
+  apply.thisLinks[<=64]                            1314
+  apply.topNanos                                   758.8 ms
+  apply.unfused                                    271
+  baseType.calls                                   1505
+  baseType.topNanos                                250.8 ms
+  baseType.visited.n                               1505
+  baseType.visited.sum                             3946
+  baseType.visited[2]                              1193
+  baseType.visited[5]                              312
+  baseTypes.supersOf                               3946
+  canonicalize.calls                               93594
+  canonicalize.nested                              87221
+  canonicalize.topNanos                            728.8 ms
+  followed.len.n                                   1126
+  followed.len.sum                                 66996
+  followed.len[10]                                 61
+  followed.len[11]                                 61
+  followed.len[2]                                  172
+  followed.len[3]                                  36
+  followed.len[4]                                  74
+  followed.len[5]                                  60
+  followed.len[<=128]                              202
+  followed.len[<=256]                              186
+  followed.len[<=32]                               134
+  followed.len[<=64]                               140
+  isMoreNarrow.steps                               184965
+  link.canonicalize.calls                          1929
+  link.canonicalize.topNanos                       202.5 ms
+  link.created                                     1929
+  resolve.candidateSignatures                      876
+  resolve.processType                              1061
+  resolve.substitutorWithThisType                  623
+  thisWalk.calls                                   92196
+  thisWalk.nested                                  29614
+  thisWalk.ownerSteps                              93381
+  thisWalk.prefixSteps                             92976
+  thisWalk.rewrote                                 92107
+  thisWalk.topNanos                                328.0 ms
+  walk.processSubtypes                             244835
+  walk.updateChecks                                958336
+VARIANT-SUMMARY env reps=375 min=375 median=375
+TIMING gate=on file=D6.scala first=535ms reps=375ms min=375ms
+STATS rep=0 file=D7.scala ms=777
+  apply.calls                                      726008
+  apply.fused                                      725737
+  apply.k.n                                        726008
+  apply.k.sum                                      2017268
+  apply.k[11]                                      24823
+  apply.k[1]                                       450215
+  apply.k[2]                                       170766
+  apply.k[3]                                       39
+  apply.k[4]                                       24
+  apply.k[5]                                       65122
+  apply.k[<=128]                                   1539
+  apply.k[<=256]                                   439
+  apply.k[<=32]                                    9439
+  apply.k[<=512]                                   30
+  apply.k[<=64]                                    3572
+  apply.nested                                     712810
+  apply.thisLinks.n                                726008
+  apply.thisLinks.sum                              2013925
+  apply.thisLinks[0]                               3243
+  apply.thisLinks[11]                              24823
+  apply.thisLinks[1]                               446994
+  apply.thisLinks[2]                               170756
+  apply.thisLinks[3]                               33
+  apply.thisLinks[4]                               18
+  apply.thisLinks[5]                               65122
+  apply.thisLinks[<=128]                           1539
+  apply.thisLinks[<=256]                           439
+  apply.thisLinks[<=32]                            9439
+  apply.thisLinks[<=512]                           30
+  apply.thisLinks[<=64]                            3572
+  apply.topNanos                                   1991.0 ms
+  apply.unfused                                    271
+  baseType.calls                                   2328
+  baseType.topNanos                                745.7 ms
+  baseType.visited.n                               2328
+  baseType.visited.sum                             5916
+  baseType.visited[2]                              1908
+  baseType.visited[5]                              420
+  baseTypes.supersOf                               5916
+  canonicalize.calls                               278288
+  canonicalize.nested                              269006
+  canonicalize.topNanos                            1950.8 ms
+  followed.len.n                                   1335
+  followed.len.sum                                 139048
+  followed.len[10]                                 63
+  followed.len[11]                                 63
+  followed.len[2]                                  171
+  followed.len[3]                                  38
+  followed.len[4]                                  82
+  followed.len[5]                                  71
+  followed.len[6]                                  7
+  followed.len[<=128]                              160
+  followed.len[<=256]                              208
+  followed.len[<=32]                               136
+  followed.len[<=512]                              186
+  followed.len[<=64]                               150
+  isMoreNarrow.steps                               553817
+  link.canonicalize.calls                          2652
+  link.canonicalize.topNanos                       486.2 ms
+  link.created                                     2652
+  resolve.candidateSignatures                      1025
+  resolve.processType                              1300
+  resolve.substitutorWithThisType                  698
+  thisWalk.calls                                   276382
+  thisWalk.nested                                  105090
+  thisWalk.ownerSteps                              278265
+  thisWalk.prefixSteps                             277642
+  thisWalk.rewrote                                 276236
+  thisWalk.topNanos                                925.6 ms
+  walk.processSubtypes                             727274
+  walk.updateChecks                                2923364
+ERRORS gate=on file=D7.scala count=1 loggedPlatformErrors=0 guardTrips=0
+  ERR D7.scala:58 Expression of type (Top.v1.C1, Top.v1.v2.C2, Top.v1.v2.v3.C3, Top.v1.v2.v3.v4.C4, Top.v1.v2.v3.v4.v5.C5, Top.v1.v2.v3.v4.v5.v6.C6, Top.v1.v2.v3.v4.v5.v6.v7.C7, Int) doesn't conform to expected type Int
+STATS rep=1 file=D7.scala ms=770
+  apply.calls                                      734123
+  apply.fused                                      733852
+  apply.k.n                                        734123
+  apply.k.sum                                      2040669
+  apply.k[11]                                      25096
+  apply.k[1]                                       455268
+  apply.k[2]                                       172657
+  apply.k[3]                                       41
+  apply.k[4]                                       25
+  apply.k[5]                                       65852
+  apply.k[<=128]                                   1563
+  apply.k[<=256]                                   446
+  apply.k[<=32]                                    9537
+  apply.k[<=512]                                   31
+  apply.k[<=64]                                    3607
+  apply.nested                                     720894
+  apply.thisLinks.n                                734123
+  apply.thisLinks.sum                              2037227
+  apply.thisLinks[0]                               3340
+  apply.thisLinks[11]                              25096
+  apply.thisLinks[1]                               451950
+  apply.thisLinks[2]                               172647
+  apply.thisLinks[3]                               35
+  apply.thisLinks[4]                               19
+  apply.thisLinks[5]                               65852
+  apply.thisLinks[<=128]                           1563
+  apply.thisLinks[<=256]                           446
+  apply.thisLinks[<=32]                            9537
+  apply.thisLinks[<=512]                           31
+  apply.thisLinks[<=64]                            3607
+  apply.topNanos                                   1955.6 ms
+  apply.unfused                                    271
+  baseType.calls                                   2408
+  baseType.topNanos                                746.1 ms
+  baseType.visited.n                               2408
+  baseType.visited.sum                             6118
+  baseType.visited[2]                              1974
+  baseType.visited[5]                              434
+  baseTypes.supersOf                               6118
+  canonicalize.calls                               281404
+  canonicalize.nested                              271943
+  canonicalize.topNanos                            1922.9 ms
+  followed.len.n                                   1351
+  followed.len.sum                                 138430
+  followed.len[10]                                 70
+  followed.len[11]                                 70
+  followed.len[2]                                  173
+  followed.len[3]                                  39
+  followed.len[4]                                  81
+  followed.len[5]                                  71
+  followed.len[6]                                  7
+  followed.len[<=128]                              154
+  followed.len[<=256]                              206
+  followed.len[<=32]                               144
+  followed.len[<=512]                              186
+  followed.len[<=64]                               150
+  isMoreNarrow.steps                               560022
+  link.canonicalize.calls                          2709
+  link.canonicalize.topNanos                       466.2 ms
+  link.created                                     2709
+  resolve.candidateSignatures                      1028
+  resolve.processType                              1307
+  resolve.substitutorWithThisType                  696
+  thisWalk.calls                                   279467
+  thisWalk.nested                                  108593
+  thisWalk.ownerSteps                              281415
+  thisWalk.prefixSteps                             280769
+  thisWalk.rewrote                                 279315
+  thisWalk.topNanos                                915.0 ms
+  walk.processSubtypes                             735331
+  walk.updateChecks                                2959289
+VARIANT-SUMMARY env reps=770 min=770 median=770
+TIMING gate=on file=D7.scala first=777ms reps=770ms min=770ms
+STATS rep=0 file=D8.scala ms=1873
+  apply.calls                                      2079772
+  apply.fused                                      2079501
+  apply.k.n                                        2079772
+  apply.k.sum                                      6015693
+  apply.k[11]                                      71442
+  apply.k[1]                                       1286932
+  apply.k[2]                                       490343
+  apply.k[3]                                       58
+  apply.k[4]                                       34
+  apply.k[5]                                       187192
+  apply.k[6]                                       6
+  apply.k[<=1024]                                  32
+  apply.k[<=128]                                   3926
+  apply.k[<=256]                                   1723
+  apply.k[<=32]                                    27239
+  apply.k[<=512]                                   485
+  apply.k[<=64]                                    10360
+  apply.nested                                     2062141
+  apply.thisLinks.n                                2079772
+  apply.thisLinks.sum                              6011702
+  apply.thisLinks[0]                               3887
+  apply.thisLinks[11]                              71442
+  apply.thisLinks[1]                               1283067
+  apply.thisLinks[2]                               490333
+  apply.thisLinks[3]                               52
+  apply.thisLinks[4]                               28
+  apply.thisLinks[5]                               187192
+  apply.thisLinks[6]                               6
+  apply.thisLinks[<=1024]                          32
+  apply.thisLinks[<=128]                           3926
+  apply.thisLinks[<=256]                           1723
+  apply.thisLinks[<=32]                            27239
+  apply.thisLinks[<=512]                           485
+  apply.thisLinks[<=64]                            10360
+  apply.topNanos                                   5405.3 ms
+  apply.unfused                                    271
+  baseType.calls                                   3192
+  baseType.topNanos                                2231.9 ms
+  baseType.visited.n                               3192
+  baseType.visited.sum                             7920
+  baseType.visited[2]                              2680
+  baseType.visited[5]                              512
+  baseTypes.supersOf                               7920
+  canonicalize.calls                               795999
+  canonicalize.nested                              783672
+  canonicalize.topNanos                            5359.3 ms
+  followed.len.n                                   1512
+  followed.len.sum                                 282642
+  followed.len[10]                                 64
+  followed.len[11]                                 64
+  followed.len[2]                                  174
+  followed.len[3]                                  40
+  followed.len[4]                                  81
+  followed.len[5]                                  68
+  followed.len[6]                                  11
+  followed.len[7]                                  6
+  followed.len[<=1024]                             186
+  followed.len[<=128]                              160
+  followed.len[<=256]                              170
+  followed.len[<=32]                               134
+  followed.len[<=512]                              208
+  followed.len[<=64]                               146
+  isMoreNarrow.steps                               1588764
+  link.canonicalize.calls                          3376
+  link.canonicalize.topNanos                       1216.0 ms
+  link.created                                     3376
+  resolve.candidateSignatures                      1129
+  resolve.processType                              1482
+  resolve.substitutorWithThisType                  746
+  thisWalk.calls                                   793559
+  thisWalk.nested                                  337120
+  thisWalk.ownerSteps                              796202
+  thisWalk.prefixSteps                             795351
+  thisWalk.rewrote                                 793359
+  thisWalk.topNanos                                2671.6 ms
+  walk.processSubtypes                             2081535
+  walk.updateChecks                                8507239
+ERRORS gate=on file=D8.scala count=1 loggedPlatformErrors=0 guardTrips=0
+  ERR D8.scala:62 Expression of type (Top.v1.C1, Top.v1.v2.C2, Top.v1.v2.v3.C3, Top.v1.v2.v3.v4.C4, Top.v1.v2.v3.v4.v5.C5, Top.v1.v2.v3.v4.v5.v6.C6, Top.v1.v2.v3.v4.v5.v6.v7.C7, Top.v1.v2.v3.v4.v5.v6.v7.v8.C8, Int) doesn't conform to expected type Int
+STATS rep=1 file=D8.scala ms=1821
+  apply.calls                                      2050125
+  apply.fused                                      2049854
+  apply.k.n                                        2050125
+  apply.k.sum                                      5927453
+  apply.k[11]                                      70428
+  apply.k[1]                                       1268573
+  apply.k[2]                                       483373
+  apply.k[3]                                       59
+  apply.k[4]                                       35
+  apply.k[5]                                       184528
+  apply.k[6]                                       6
+  apply.k[<=1024]                                  31
+  apply.k[<=128]                                   3869
+  apply.k[<=256]                                   1692
+  apply.k[<=32]                                    26851
+  apply.k[<=512]                                   477
+  apply.k[<=64]                                    10203
+  apply.nested                                     2032231
+  apply.thisLinks.n                                2050125
+  apply.thisLinks.sum                              5923577
+  apply.thisLinks[0]                               3774
+  apply.thisLinks[11]                              70428
+  apply.thisLinks[1]                               1264821
+  apply.thisLinks[2]                               483363
+  apply.thisLinks[3]                               53
+  apply.thisLinks[4]                               29
+  apply.thisLinks[5]                               184528
+  apply.thisLinks[6]                               6
+  apply.thisLinks[<=1024]                          31
+  apply.thisLinks[<=128]                           3869
+  apply.thisLinks[<=256]                           1692
+  apply.thisLinks[<=32]                            26851
+  apply.thisLinks[<=512]                           477
+  apply.thisLinks[<=64]                            10203
+  apply.topNanos                                   5485.7 ms
+  apply.unfused                                    271
+  baseType.calls                                   3108
+  baseType.topNanos                                2124.2 ms
+  baseType.visited.n                               3108
+  baseType.visited.sum                             7704
+  baseType.visited[2]                              2612
+  baseType.visited[5]                              496
+  baseTypes.supersOf                               7704
+  canonicalize.calls                               784636
+  canonicalize.nested                              772452
+  canonicalize.topNanos                            5443.4 ms
+  followed.len.n                                   1523
+  followed.len.sum                                 283153
+  followed.len[10]                                 64
+  followed.len[11]                                 64
+  followed.len[2]                                  174
+  followed.len[3]                                  37
+  followed.len[4]                                  81
+  followed.len[5]                                  70
+  followed.len[6]                                  11
+  followed.len[7]                                  6
+  followed.len[<=1024]                             186
+  followed.len[<=128]                              156
+  followed.len[<=256]                              172
+  followed.len[<=32]                               140
+  followed.len[<=512]                              208
+  followed.len[<=64]                               154
+  isMoreNarrow.steps                               1566079
+  link.canonicalize.calls                          3302
+  link.canonicalize.topNanos                       1287.6 ms
+  link.created                                     3302
+  resolve.candidateSignatures                      1135
+  resolve.processType                              1488
+  resolve.substitutorWithThisType                  756
+  thisWalk.calls                                   782247
+  thisWalk.nested                                  326585
+  thisWalk.ownerSteps                              784822
+  thisWalk.prefixSteps                             783983
+  thisWalk.rewrote                                 782047
+  thisWalk.topNanos                                2590.0 ms
+  walk.processSubtypes                             2051854
+  walk.updateChecks                                8379258
+VARIANT-SUMMARY env reps=1821 min=1821 median=1821
+TIMING gate=on file=D8.scala first=1873ms reps=1821ms min=1821ms

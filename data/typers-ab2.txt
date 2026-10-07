@@ -1,0 +1,71 @@
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT base rep=0 ms=23474 errors=0
+ERRORS gate=on file=scala/tools/nsc/typechecker/Typers.scala count=0 loggedPlatformErrors=1 guardTrips=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT both rep=0 ms=16678 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT bt rep=0 ms=15003 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT base rep=1 ms=15025 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT both rep=1 ms=15177 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT bt rep=1 ms=15375 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT base rep=2 ms=15946 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT both rep=2 ms=13744 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT bt rep=2 ms=13611 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT base rep=3 ms=13751 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT both rep=3 ms=19137 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT bt rep=3 ms=15943 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT base rep=4 ms=17010 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT both rep=4 ms=17129 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT bt rep=4 ms=17334 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT base rep=5 ms=18937 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT both rep=5 ms=16806 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT bt rep=5 ms=17778 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT base rep=6 ms=19550 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT both rep=6 ms=16651 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT bt rep=6 ms=17093 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT base rep=7 ms=18852 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT both rep=7 ms=16476 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT bt rep=7 ms=17923 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT base rep=8 ms=20891 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT both rep=8 ms=18977 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT bt rep=8 ms=19211 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT base rep=9 ms=19851 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT both rep=9 ms=21815 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT bt rep=9 ms=24922 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT base rep=10 ms=25213 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT both rep=10 ms=23034 errors=0
+  LOGGED org.jetbrains.uast.ULambdaExpression is not expected from org.jetbrains.plugins.scala.lang.psi.impl.expr.ScIfImpl, got org.jetbrains.plugins.scala.lang.psi.uast
+VARIANT bt rep=10 ms=17925 errors=0
+VARIANT-SUMMARY base reps=15025,15946,13751,17010,18937,19550,18852,20891,19851,25213 min=13751 median=18937
+VARIANT-SUMMARY both reps=15177,13744,19137,17129,16806,16651,16476,18977,21815,23034 min=13744 median=17129
+VARIANT-SUMMARY bt reps=15375,13611,15943,17334,17778,17093,17923,19211,24922,17925 min=13611 median=17778
+TIMING gate=on file=scala/tools/nsc/typechecker/Typers.scala first=23474ms reps=16678,15003,15025,15177,15375,15946,13744,13611,13751,19137,15943,17010,17129,17334,18937,16806,17778,19550,16651,17093,18852,16476,17923,20891,18977,19211,19851,21815,24922,25213,23034,17925ms min=13611ms
